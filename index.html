@@ -19,6 +19,19 @@
         font-family: "Poppins", sans-serif;
     }
 </style>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#da373d',
+                    'board-primary': '#f4f7ff',
+                    'btn-primary': '#3752FD',
+                }
+            }
+        }
+    }
+</script>
 
 <body id="btnnew" class="bg-[#f4f7ff]">
     <header class="pt-2 font-poppins">
@@ -71,11 +84,98 @@
                             <img class="h-6 w-6 absolute top-3 left-3" src="assets/calender.png" alt="">
                         </div>
                         <div>
-                            <!-- <p class="text-base">Wed</p> -->
                             <p id="chekbox-date" class="text-2xl font-medium">Jul 28 2025</p>
                         </div>
                     </div>
                 </div>
+                <hr style="border: 1px dashed oklch(0.928 0.006 264.531);" class="my-3" />
+                <div class="grid grid-cols-3 grid-rows-2 gap-8 px-5">
+                    <div class="bg-board-primary rounded-lg p-4 space-y-3">
+                        <button class="text-lg bg-white px-4 py-1 rounded-md">Shop Ease</button>
+                        <p class="text-2xl font-medium">Fix Mobile Button Issue </p>
+                        <div class="bg-white flex items-center">
+                            <p class="text-lg overflow-ellipsis whitespace-nowrap overflow-hidden h-20 py-3 px-3">A
+                                problem where a button on a mobile website or app does not function as expected. This
+                                can include issues like unresponsiveness, incorrect styling, or misalignment.
+
+                            </p>
+                        </div>
+                        <hr style="border: 1px dashed oklch(0.928 0.006 264.531);" class="my-3" />
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <p class="text-sm text-[#00303C]">Deadline</p>
+                                <p class="text-base font-medium">21 March 2025</p>
+                            </div>
+                            <div>
+                                <button id="1"
+                                    class="text-white text-base font-medium px-5 py-2 rounded-md bg-btn-primary completed-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-board-primary rounded-lg p-4 space-y-3">
+                        <button class="text-lg bg-white px-4 py-1 rounded-md">Soft Pay</button>
+                        <p class="text-2xl font-medium">Add Pay Success Modal</p>
+                        <div class="bg-white flex items-center">
+                            <p class="text-lg overflow-ellipsis whitespace-nowrap overflow-hidden h-20 py-3 px-3">A
+                                pop-up or overlay on a website that confirms a successful payment transaction. It
+                                typically includes a success message, payment details, and a button to proceed or close
+                                the modal.</p>
+                        </div>
+                        <hr style="border: 1px dashed oklch(0.928 0.006 264.531);" class="my-3" />
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <p class="text-sm text-[#00303C]">Deadline</p>
+                                <p class="text-base font-medium">21 March 2025</p>
+                            </div>
+                            <div>
+                                <button id="2"
+                                    class="text-white text-base font-medium px-5 py-2 rounded-md bg-btn-primary completed-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-board-primary rounded-lg p-4 space-y-3">
+                        <button class="text-lg bg-white px-4 py-1 rounded-md">Meta</button>
+                        <p class="text-2xl font-medium">Add New Reaction 🤲</p>
+                        <div class="bg-white flex items-center">
+                            <p class="text-lg overflow-ellipsis whitespace-nowrap overflow-hidden h-20 py-3 px-3">A
+                                feature in Meta (Facebook) platforms that allows users to introduce or use a new
+                                reaction emoji beyond the default set (like, love, haha, wow, sad, angry) to engage with
+                                posts, comments, or messages in a more expressive way.</p>
+                        </div>
+                        <hr style="border: 1px dashed oklch(0.928 0.006 264.531);" class="my-3" />
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <p class="text-sm text-[#00303C]">Deadline</p>
+                                <p class="text-base font-medium">21 March 2025</p>
+                            </div>
+                            <div>
+                                <button id="3"
+                                    class="text-white text-base font-medium px-5 py-2 rounded-md bg-btn-primary completed-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-board-primary rounded-lg p-4 space-y-3">
+                        <button class="text-lg bg-white px-4 py-1 rounded-md">PH</button>
+                        <p class="text-2xl font-medium">Fix Video Loading issue</p>
+                        <div class="bg-white flex items-center">
+                            <p class="text-lg overflow-ellipsis whitespace-nowrap overflow-hidden h-20 py-3 px-3">A
+                                learning platform and mobile app that offers coding courses, primarily focused on web
+                                development, app development, and data science. It provides interactive lessons,
+                                hands-on projects, and gamified learning experiences to help beginners and aspiring
+                                developers improve their programming skills.</p>
+                        </div>
+                        <hr style="border: 1px dashed oklch(0.928 0.006 264.531);" class="my-3" />
+                        <div class="flex flex-row justify-between">
+                            <div>
+                                <p class="text-sm text-[#00303C]">Deadline</p>
+                                <p class="text-base font-medium">21 March 2025</p>
+                            </div>
+                            <div>
+                                <button id="4"
+                                    class="text-white text-base font-medium px-5 py-2 rounded-md bg-btn-primary completed-btn">Completed</button>
+                            </div>
+                        </div>
+                    </div>
     </section>
 
 </html>
